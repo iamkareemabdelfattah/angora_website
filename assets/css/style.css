@@ -472,6 +472,23 @@ h6 {
   -o-transition: all 0.3s ease-in-out;
 }
 
+.nav-pills .nav-link {
+  color: #282828;
+  background-color: transparent;
+  font-weight: bold;
+  border-radius: 1rem;
+}
+
+.nav-pills .nav-link:hover {
+  color: #F26654;
+}
+
+.nav-pills .nav-link.active {
+  color: #F26654;
+  background-color: transparent;
+  border: 1px solid #f25454
+}
+
 /***===End Projects===***/
 
 /***===Start Services===***/
@@ -691,6 +708,51 @@ h6 {
   -ms-transform: scale(1.1);
   -o-transform: scale(1.1);
 }
+
+.card .card-body a {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #f25454;
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+}
+
+.card .card-body a:hover {
+  color: #282828;
+}
+
+.card .card-text a {
+  color: #282828;
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+}
+
+.card .card-title {
+  font-size: 27px;
+  line-height: 24px;
+}
+
+.card .card-title a:hover,
+.card .card-text a:hover {
+  color: #f25454;
+}
+
+.card .card-title a {
+  color: #282828;
+  font-weight: 600;
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+}
+
 
 /***===End Blog===***/
 
